@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Banner Section Styles */
+
+.banner {
+    background-image: url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-elements {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.banner-section-tittle {
+    font-size: 60px;
+    color: #ffff;
+    text-align: center;
+}
+
+.banner-section-description {
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 15px;
+    margin: 20px 45px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Donate section styles */
+
+.donate {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.section-tittle {
+    font-size: 40px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.donate-section-description {
+    font-size: 15px;
+    margin: 20px 45px;
+    /* margin-top: 20px;
+    margin-bottom: 10px; */
+}
+
+.money-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+
+.money1,
+.money2,
+.money3,
+.money4,
+.money5 {
+    background-color: antiquewhite;
+    padding: 30px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.money2 {
+    border: 1px solid rgba(255, 0, 0, 0.877);
+    background-color: rgba(255, 0, 0, 0.342);
+    color: rgba(255, 0, 0, 0.753);
+}
+
+.amount {
+    border: none;
+    border-bottom: 2px solid rgba(250, 9, 9, 0.24);
+    width: 100%;
+    text-align: center;
+    margin: 10px o;
+    padding: 10px;
+}
+
+/* Plan Section Styles */
+
+.donate-plan {
+    /* text-align: center; */
+    width: 60%;
+    margin: 0 auto;
+}
+
+.plan-container {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+
+}
+
+.section-description {
+    font-size: 15px;
+    padding: 20px 0px;
+    width: 55%;
+    margin: 0 auto;
+
+}
+
+.sub-sub-description {
+    font-size: 15px;
+}
+
+.plan-tittle {
+    padding: 10px 0;
+}
+
+.food {
+    background-color: rgba(0, 128, 0, 0.418);
+    padding: 30px 15px;
+
+}
+
+
+.shelter {
+    background-color: rgba(255, 0, 0, 0.404);
+    padding: 30px 15px;
+
+}
+
+.education {
+    background-color: rgba(255, 68, 0, 0.336);
+    padding: 30px 15px;
+
+}
+
+/* Lives & survive section design */
+
+.lives {
+    display: flex;
+    width: 60%;
+    margin: 130px auto;
+    gap: 30px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.text {}
+
+.img {}
+
+.img img {
+    height: 300px;
+    width: 400px;
+}
+
+.text-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text-description {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* last section */
+
+.update {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.update-tittle {
+    font-size: 40px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.update-section-description {
+    font-size: 15px;
+    margin: 20px 45px;
+    /* margin-top: 20px;
+    margin-bottom: 10px; */
+}
+.email {
+    border: none;
+    /* border-bottom: 2px solid rgba(250, 9, 9, 0.24); */
+    /* width: 100%; */
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.last{
+    padding: 40px 0;
+}
+.btn-subscribe {
+    padding: 8px 20px;
+    font-size: 20px;
+    background-color: lightcoral;
+    border: none;
+    /* border-radius: 5px; */
+}
+
+.last{
+    background-color: rgba(0, 0, 255, 0.171);
+}
+
+.footer{
+    margin-top: 130px ;
+    padding: 100px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: #fff;
+}
+
+.footer-text{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.footer-p{
+    padding: 20px 0;
+    font-size: 13px;
+}
